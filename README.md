@@ -1,0 +1,2 @@
+# buddy-team
+Agent workspace
