@@ -1,4 +1,4 @@
-# TOOLS.md - RedFlag's Environment
+# TOOLS.md - Spider's Environment
 
 ## OpenClaw
 - **Docs:** `/usr/lib/node_modules/openclaw/docs`
@@ -7,7 +7,7 @@
 - **Source:** https://github.com/openclaw/openclaw
 
 ## Workspace
-- RedFlag: `/Users/clawbot/.openclaw/workspace-redflag`
+- Spider: `/Users/clawbot/.openclaw/workspace-spider`
 
 ## Key Commands
 ```bash
@@ -27,7 +27,7 @@ openclaw context detail            # Per-file token costs
 - John (main): `/Users/clawbot/.openclaw/workspace`
 - Joe: `/Users/clawbot/.openclaw/workspace-joe`
 - Alex: `/Users/clawbot/.openclaw/workspace/agents/alex`
-- RedFlag: `/Users/clawbot/.openclaw/workspace-redflag`
+- Spider: `/Users/clawbot/.openclaw/workspace-spider`
 - Dev: `/Users/clawbot/.openclaw/workspace-dev`
 - Cindy: `/Users/clawbot/.openclaw/workspace-cindy`
 - dashboard-sync: `/Users/clawbot/.openclaw/workspace-dashboard-sync`
@@ -44,4 +44,5 @@ Never use sessions_spawn — agents must run in their own sessions.
 - Normal tasks: `--timeout 600`
 - Research or multi-agent coordination: `--timeout 900`
 - Never use short timeouts for tasks that involve calling other agents
+
 
