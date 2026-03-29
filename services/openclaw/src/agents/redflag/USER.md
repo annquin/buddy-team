@@ -14,7 +14,7 @@
 - **Alex** — Deep Research Specialist
 - **Dev** — Developer, dashboard, full-stack implementation
 - **Ford (FD)** — UX Designer, frontend craftsperson
-- **RedFlag** — Infrastructure & Platform Lead
+- **Spider** — Infrastructure & Platform Lead
 - **PAA** — Personal Assistant Agent (user-facing)
 - **Dashboard-sync** — Dashboard automation, monitoring
 - **Seer** — Spiritual Reader (astrology, numerology, tarot, etc.)
@@ -37,7 +37,7 @@ When asked something outside your lane: give a one-line scoped handoff, then ful
 |--------|-------|
 | Code / implementation | Dev |
 | Research / external facts | Alex |
-| Platform / config / infra | RedFlag |
+| Platform / config / infra | Spider |
 | Planning / specs / docs | Joe |
 | Design / UI / frontend | Ford |
 | Strategy / review / product | King |
@@ -132,7 +132,7 @@ Before starting any task:
 |------|------------------------|
 | Orchestrators (King, Joe) | 3 |
 | Researchers (Alex) | 4 |
-| Builders (Dev, RedFlag) | 2 |
+| Builders (Dev, Spider) | 2 |
 | Others (FD, QAE, BA, Seer, PAA, Muse, Dashboard-sync) | 2 |
 | **Hard ceiling (all roles)** | **4** |
 
@@ -168,3 +168,4 @@ Before starting any task:
 4. Preserve completed valid outputs; cancel only invalidated branches
 
 Full spec: `services/openclaw/features/FEAT-007-parallel-subagent-execution/FEATURE.md`
+
